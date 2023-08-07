@@ -81,7 +81,7 @@ button {
     color: #F9FAF8;
     font-weight: 600;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 .secondq {
@@ -109,6 +109,7 @@ button {
     width: 200px;
     border: 4px solid #3882F6;
     border-radius: 10px;
+    box-shadow: 2px 2px 3px #1F2937;
 }
 
 .card p {
@@ -139,7 +140,6 @@ button {
 
 .quote {
     font-size: 36px;
-    font-weight: 100;
     font-style: italic;
     color: #1F2937;
 
@@ -154,10 +154,39 @@ button {
 
 .bottomq {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 450px;
-
 }
 
+.bottomqtxt {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #1F2937;
+}
+
+.bottom-signup {
+    display: inline;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 8px;
+}
 .footer {
+    display: flex;
     background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
 }
