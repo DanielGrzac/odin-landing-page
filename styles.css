@@ -1,3 +1,9 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -57,7 +63,7 @@ button {
     height: 350px;
     width: 500px;
     margin: 0;
-    padding: 0;
+    padding-right: 20px;
 }
 
 .topq-title {
@@ -84,7 +90,7 @@ button {
     color: #F9FAF8;
     font-weight: 600;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 8px 15px;
 }
 
 .secondq {
@@ -163,7 +169,7 @@ button {
 }
 
 .bottomqtxt {
-    font-size: 14px;
+    font-size: 16px;
     color: #E5E7EB;
 }
 
@@ -185,7 +191,7 @@ button {
     font-weight: 600;
     border: 2px solid white;
     border-radius: 10px;
-    padding: 5px 8px;
+    padding: 8px 15px;
 }
 .footer {
     display: flex;
